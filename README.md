@@ -28,7 +28,14 @@ Product descriptions: Added descriptions to products to provide customers with m
 [2026-11-01]
 Product popups: Added an interactive popup that displays a larger product image, product name, price and description when a customer clicks on a product.
 
+[2026-11-01]
+Button improvements: Updated the Load More buttons to disappear once all additional products in a category have been displayed.
 
+[2026-11-01]
+JavaScript functionality: Used JavaScript to make the product interactions more interactive and user-friendly.
+
+[2026-11-01]
+Responsive design: Continued improving the website layout to provide a better browsing experience across different screen sizes.
 
 #
 
