@@ -38,14 +38,14 @@ JavaScript functionality: Used JavaScript to make the product interactions more 
 Responsive design: Continued improving the website layout to provide a better browsing experience across different screen sizes.
 
 [2025-11-01]
-# DOM Manipulation
+DOM Manipulation
 - Used JavaScript DOM manipulation to dynamically update webpage elements and improve user interaction.
 - Added functionality to display additional products when the **"Load More"** button is clicked.
 - Implemented interactive product popups that display a product's image, name, price and description when clicked.
 - Updated the webpage dynamically by showing and hiding elements based on user actions.
+
+
 #
-
-
 BookNest 
 
 BookNest was established in 2012 by Andrew Theko who wanted more learners and students to have access to affordable school textbooks. It started as a small store that only sold second hand school textbooks for school children but today it has expanded to selling stationery and first-hand and second-hand textbooks and children’s books. 
