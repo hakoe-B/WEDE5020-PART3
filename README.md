@@ -1,5 +1,4 @@
 # WEDE5020-PART3
-# WEDE5020-PART2
 
 # WEDE5020-POE
 Lehakoe Theko Baholo ST10524621 
@@ -20,6 +19,9 @@ Editing About Us Page - 18/09/2026
 [2026-11-01]
 Adding a interactive map for the locations
 Adding a third product to the products.html so that the "Load more" button is functional
+Product descriptions: Added descriptions to products to provide customers with more information about the books and stationery available.
+
+Product popups: Added an interactive popup that displays a larger product image, product name, price and description when a customer clicks on a product.
 
 
 
