@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Nest | Contact us</title>
+    <meta content="Get in touch with BookNest for questions about our books, stationery and services.">
+
+    <link rel="stylesheet" href="css_assets/style.css">
+
+    <!-- NEW: Interactive map styling -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+    <!-- TOP NAVIGATION -->
+    <header>
+        <div class="logo">
+            <img src="_images/booknest_logo/booknest_logo (1).jpg"
+                 alt="Book Nest Logo">
+        </div>
+
+        <nav class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="enquiries.html">Enquiries</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </nav>
+    </header>
+
+    
+
+
+
+
+    <!-- MAIN CONTENT -->
+    <main class="contact-page">
+
+        <div class="contact-heading">
+            <h1>Connect with us</h1>
+        </div>
+
+
+        <!-- EXISTING OFFICE CARDS: KEPT -->
+        <div class="office-container">
+
+            <div class="office-card">
+                <h3>Main Office</h3>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.7536039977467!2d28.051093574532825!3d-25.513262777508928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfcecfffb7434b%3A0xadbff24d6e85c455!2sMabopane%20Library!5e0!3m2!1sen!2sza!4v1786731255444!5m2!1sen!2sza"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+                <p class="office-address">
+                    Mabopane, South Africa
+                </p>
+            </div>
+
+
+            <div class="office-card">
+                <h3>Second Office</h3>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.5985563071304!2d28.014541374534367!3d-25.55174577748446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfcd76d2924b5d%3A0x594d4d9539fff617!2sHebron%20Library!5e0!3m2!1sen!2sza!4v1786731376935!5m2!1sen!2sza"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+                <p class="office-address">
+                    Hebron, South Africa
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+<section class="contact-form-section">
+    <h2>Send Us a Message</h2>
+    <p>Have a question? Fill in the form below and we will get back to you.</p>
+
+    <form class="contact-form" id="contactForm">
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+                minlength="2"
+                maxlength="80"
+                autocomplete="name"
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                maxlength="254"
+                autocomplete="email"
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Type your message here..."
+                required
+                minlength="10"
+                maxlength="2000"
+                rows="6"
+            ></textarea>
+        </div>
+
+        <input type="hidden" name="_subject"
+               value="New Contact Message - BookNest">
+
+        <button type="submit">Send Message</button>
+        <p id="contactStatus" role="status" aria-live="polite"></p>
+    </form>
+</section>
+
+
+        <!-- NEW: INTERACTIVE MAP SECTION -->
+        <section class="map-section">
+
+            <div class="map-heading">
+                <h2>Explore Our Locations</h2>
+
+                <p>
+                    Find Book Nest in Mabopane and Hebron.
+                    Click on a marker to learn more about each location.
+                </p>
+            </div>
+
+            <!-- The interactive map will appear inside this div -->
+            <div id="office-map"></div>
+
+            <p class="map-note">
+                📍 Zoom in or click on a map marker to explore our locations.
+            </p>
+
+        </section>
+        <!-- END OF NEW MAP SECTION -->
+
+
+        <!-- EXISTING CONTACT DETAILS: KEPT -->
+        <section class="contact-details">
+
+            <div class="contact-detail">
+                <div class="contact-icon">📍</div>
+                <h3>Our Address</h3>
+                <p>Mabopane &amp; Hebron, South Africa</p>
+            </div>
+
+            <div class="contact-detail">
+                <div class="contact-icon">📞</div>
+                <h3>Phone</h3>
+                <p>063 628 7073</p>
+            </div>
+
+            <div class="contact-detail">
+                <div class="contact-icon">✉</div>
+                <h3>Email</h3>
+                <p>booknest.library.01@gmail.com</p>
+            </div>
+
+        </section>
+
+
+        <!-- EXISTING SOCIAL LINKS: KEPT -->
+        <section class="contact-social">
+            <h2>Follow us</h2>
+
+            <a href="https://www.facebook.com/share/1DMa7rpkmk">
+                Facebook
+            </a>
+
+            <a href="">TikTok</a>
+        </section>
+
+    </main>
+
+
+    <!-- EXISTING FOOTER: KEPT -->
+    <footer class="booknest-footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <img src="_images/booknest_logo/booknest_logo (1).jpg"
+                     alt="Book Nest Logo">
+
+                <p>
+                    Taking care of knowledge, taking care of you.
+                </p>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Shop</a>
+                <a href="enquiries.html">Enquiries</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+
+                <p>📍 Gauteng, South Africa</p>
+                <p>📞 063 628 7076</p>
+                <p>✉ booknest.library@store.co.za</p>
+            </div>
+
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1DMa7rpkmk">
+                        Facebook
+                    </a>
+
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>© 2026 BookNest. All Rights Reserved.</p>
+            <p>Made with a love for books 📚</p>
+        </div>
+
+    </footer>
+
+
+    <!-- NEW: INTERACTIVE MAP JAVASCRIPT LIBRARY -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- NEW: INTERACTIVE MAP FUNCTIONALITY -->
+    <script>
+
+        // Create the map
+        const map = L.map('office-map');
+
+        // Add the map background
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+
+        // Store the office locations
+        const offices = {
+            mabopane: {
+                name: 'Main Office',
+                location: 'Mabopane, South Africa',
+                coordinates: [-25.513263, 28.051094]
+            },
+
+            hebron: {
+                name: 'Second Office',
+                location: 'Hebron, South Africa',
+                coordinates: [-25.551746, 28.014541]
+            }
+        };
+
+
+        // Create a marker for each office
+        const officeMarkers = {};
+
+        for (const place in offices) {
+
+            const office = offices[place];
+
+            officeMarkers[place] = L.marker(office.coordinates)
+                .addTo(map);
+
+            officeMarkers[place].bindPopup(
+                '<strong>' + office.name + '</strong><br>' +
+                office.location
+            );
+        }
+
+
+        // Display both offices when the page opens
+        const officeBounds = L.latLngBounds(
+            offices.mabopane.coordinates,
+            offices.hebron.coordinates
+        );
+
+        map.fitBounds(officeBounds, {
+            padding: [40, 40]
+        });
+
+
+    </script>
+<script src="js_assets/script.js"></script>   
+</body>
+</html>

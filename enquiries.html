@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Nest | Enquiries</title>
+    <meta content="Submit an enquiry to BookNest about our products, textbooks, children's books and stationery.">
+    <link rel="stylesheet" href="css_assets/style.css">
+</head>
+<body>
+     <!-- top Navigation -->
+     
+     <header>
+        
+        <div class="logo">
+         <img src="_images/booknest_logo/booknest_logo (1).jpg" alt="Book Nest Logo">
+        </div>
+
+        <nav class="nav-links">
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="products.html">Shop</a> </li>
+            <li><a href="enquiries.html">Enquiries</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </nav>
+     </header>
+      
+
+
+
+<!-- MAIN CONTENT OF HOME -->
+     <main class="contact-page">
+
+          <div class="contact-content">
+
+                <div class="contact-info">
+
+               <h1>We are here to help!</h1>
+
+               <p>
+                    Have a question? You can send us an enquiry and
+                    we'll get back to you
+               </p>
+
+          </div>
+
+
+     <form class="contact-form"
+      id="enquiryForm">
+    <!-- Email subject -->
+    <input type="hidden" name="_subject"
+           value="New BookNest Product Enquiry">
+
+    <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your full name"
+               minlength="2"
+               maxlength="80"
+               autocomplete="name"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email address"
+               maxlength="254"
+               autocomplete="email"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label for="enquiryType">What is your enquiry about?</label>
+        <select id="enquiryType"
+                name="enquiry_type"
+                required>
+            <option value="">Select an enquiry type</option>
+            <option value="Product availability">Product availability</option>
+            <option value="Product price">Product price</option>
+            <option value="Book enquiry">Book enquiry</option>
+            <option value="Stationery enquiry">Stationery enquiry</option>
+            <option value="Order enquiry">Order enquiry</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="productName">Product Name (if applicable):</label>
+        <input type="text"
+               id="productName"
+               name="product_name"
+               placeholder="Enter the book or product name"
+               maxlength="150">
+    </div>
+
+    <div class="form-group">
+        <label for="enquiry">Your Message:</label>
+        <textarea id="enquiry"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us what you would like to know..."
+                  minlength="10"
+                  maxlength="2000"
+                  required></textarea>
+    </div>
+
+    <button class="contact-submit" type="submit">
+        Submit Enquiry
+    </button>
+
+    <p id="enquiryStatus" role="status" aria-live="polite"></p>
+
+</form>
+          </div>
+
+     </main>
+
+     <!-- FOOTER OF THE WEBPAGE -->
+
+     <footer class="booknest-footer">
+
+    <div class="footer-content">
+
+        <!-- Logo / About -->
+        <div class="footer-brand">
+            <img src="_images/booknest_logo/booknest_logo (1).jpg"
+                 alt="Book Nest Logo">
+
+            <p>
+                Taking care of knowledge, taking care of you.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Shop</a>
+            <a href="enquiries.html">Enquiries</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+
+            <p>📍 Gauteng, South Africa</p>
+            <p>📞 063 628 7076</p>
+           <p>✉ booknest.library@store.co.za</p>
+        </div>
+
+
+        <!-- Social Media -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+               <a href="https://www.facebook.com/share/1DMa7rpkmk">Facebook</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom">
+
+        <p>© 2026 BookNest. All Rights Reserved.</p>
+
+        <p>Made with a love for books 📚</p>
+
+    </div>
+
+</footer>
+ <script src="js_assets/script.js"></script>     
+</body>
+</html>
