@@ -26,7 +26,7 @@ Adding a third product to the products.html so that the "Load more" button is fu
 Product descriptions: Added descriptions to products to provide customers with more information about the books and stationery available.
 
 [2026-11-01]
-Product popups: Added an interactive popup that displays a larger product image, product name, price and description when a customer clicks on a product.
+Product popups: Added an interactive popup that displays a larger product image, product name, price and description when a customer clicks on a product. So when the product is clicked the user can see the product closer(lightbox) and the details of the product.
 
 [2026-11-01]
 Button improvements: Updated the Load More buttons to disappear once all additional products in a category have been displayed.
