@@ -15,12 +15,10 @@ Editing Enquiries Page - 17/09/2026
 Editing Contact Page - 17/09/2026
 Editing Product Page - 18/09/2026
 Editing About Us Page - 18/09/2026
-
+#
 **Feedback from part 2**
-Changed the website so it adapts to any device and edited my contact so it also has a form
-
-And focused on have more descriptive github changelogs
-
+Changed the website so it adapts to any device and edited my contact so it also has a form and focused on have more descriptive github changelogs
+#
 
 [2026-11-01]
 Adding a interactive map for the locations
