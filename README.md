@@ -7,7 +7,7 @@ Part 1
 ORGANISATIONAL OVERVIEW: 
 
 #
-CHANGELOG
+#CHANGELOG
 
 Creating a CSS file - 16/09/2026
 Editing home page - 16/09/2026
