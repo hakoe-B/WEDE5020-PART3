@@ -7,7 +7,7 @@ Part 1
 ORGANISATIONAL OVERVIEW: 
 
 #
-#CHANGELOG
+### CHANGELOG
 
 Creating a CSS file - 16/09/2026
 Editing home page - 16/09/2026
@@ -37,6 +37,12 @@ JavaScript functionality: Used JavaScript to make the product interactions more 
 [2026-11-01]
 Responsive design: Continued improving the website layout to provide a better browsing experience across different screen sizes.
 
+[2025-11-01]
+# DOM Manipulation
+- Used JavaScript DOM manipulation to dynamically update webpage elements and improve user interaction.
+- Added functionality to display additional products when the **"Load More"** button is clicked.
+- Implemented interactive product popups that display a product's image, name, price and description when clicked.
+- Updated the webpage dynamically by showing and hiding elements based on user actions.
 #
 
 
