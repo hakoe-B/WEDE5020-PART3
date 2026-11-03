@@ -52,6 +52,15 @@ Search Bar Improvements and Functionality
 - **Product searching:** Implemented functionality that allows customers to search for books and stationery from the product page.
 - **Search results:** Added functionality to display matching products on the Products page and show a message when no matching products are found.
 
+[2026-11-02] Contact Form Improvements and Functionality
+
+- **Form validation:** Added validation to ensure that users enter their name, a valid email address, and a message before submitting the form.
+- **JavaScript functionality:** Used JavaScript DOM manipulation and event handling to manage form submissions and improve user interaction.
+- **AJAX-style form submission:** Used JavaScript's Fetch API to send contact form data to FormSubmit asynchronously, allowing users to submit messages without leaving or reloading the Contact page.
+- **Email integration:** Integrated the contact form with FormSubmit to send customer messages to the BookNest email address.
+- **Submission feedback:** Added a status message to inform users when their message is being sent, sent successfully, or could not be sent.
+- **User experience:** Improved the contact form by providing clear feedback and allowing users to remain on the Contact page after submitting their message.
+
 #
 BookNest 
 
