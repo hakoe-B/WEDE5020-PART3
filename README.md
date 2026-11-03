@@ -44,6 +44,13 @@ DOM Manipulation
 - Implemented interactive product popups that display a product's image, name, price and description when clicked.
 - Updated the webpage dynamically by showing and hiding elements based on user actions.
 
+[2026-11-01]
+Search Bar Improvements and Functionality
+- **Search bar styling:** Improved the search bar's appearance to match the BookNest website's design, including a magnifying-glass icon.
+- **Responsive design:** Adjusted the search bar's width and positioning to make it more suitable for smaller screens.
+- **JavaScript functionality:** Used JavaScript DOM manipulation and event handling to process search requests.
+- **Product searching:** Implemented functionality that allows customers to search for books and stationery from the product page.
+- **Search results:** Added functionality to display matching products on the Products page and show a message when no matching products are found.
 
 #
 BookNest 
